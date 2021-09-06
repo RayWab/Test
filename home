@@ -1,0 +1,89 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--for responsive design-->
+	<meta name="author" content="Wabara">
+  <meta name="description" content="">
+	<!--sitelinks are configurable in Google's webmaster tools — a way to make your site's search results better in the Google search engine.-->
+	
+	<title>Demo | Raytest</title>
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="athstyle.css" type="text/css" media="Screen" />
+  <link rel="stylesheet" href="mobile.css" type="text/css" media="handheld" /> <!--for mobile-compatible style-->
+</head>
+
+
+<body>
+  <div class="above-nav">
+    
+  </div>
+	<nav class="nav-area">
+	  <div id="spacer2"></div>
+		<ul>
+			<li>
+				<a href="#">Home</a>
+			</li>
+			<li>
+				<a href="#">About Us</a>
+			</li>
+			<li>
+				<a href="#">Services</a>
+				<ul>
+					<li>
+						<a href="#">General outpatient Services</a>
+					</li>
+					<li>
+						<a href="#">Women's Health / Family Planning</a>
+					</li>
+					<li>
+						<a href="#">In-patient Care</a>
+					</li>
+					<li>
+						<a href="#">Emergency</a>
+          </li>
+          <li>
+						<a href="#">Surgical Services</a>
+					</li>
+          <li>
+						<a href="#">Preventive Screening</a>
+					</li>
+						</ul>
+			</li>
+			<li>
+				<a href="#">Patient Resources</a>
+        <ul>
+					<li>
+						<a href="#">What to Expect</a>
+					</li>
+					<li>
+						<a href="#">Patient Testimonials</a>
+					</li>
+					<li>
+						<a href="#">Ask a question</a>
+					</li>
+        </ul>
+			</li>
+			<li>
+				<a href="#">Blog</a>
+			</li>
+			<li>
+				<a href="#">Public Health Education</a>
+        <ul>
+					<li>
+						<a href="#">IEC materials</a>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+	<main> </main>
+	<footer>
+	</footer>
+</body>
+
+
+</html>
