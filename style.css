@@ -1,0 +1,293 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: poppins;
+	color:black;
+	
+/*to add background*/
+/*background:;
+-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100vh;*/
+}
+
+/*all links everywhere*/
+/*a {*/
+/*	font-size: 12px;*/
+/*	text-transform: uppercase;*/
+/*}*/
+
+
+/* navigation bar*/
+.nav-area {
+	background: #fff;
+	height:10vh;
+	color:black;
+	box-shadow: 3px 3px 15px #d6d3d9;
+	margin:1vw;
+	font-family: "Fira Sans";
+}
+
+.nav-area>a {
+	font-weight: 600;
+	font-size: 5px;
+	
+}
+
+/*main menu links*/
+.nav-area ul li a {
+	text-decoration: none;
+	color: black;
+	padding: 15px 20px;
+	display: block;
+}
+
+.nav-area ul {
+	list-style: none;
+	margin-top:5px;
+	/*background:#0099CC;*/
+	margin:1vw;
+	padding-top:0.8vw;
+	text-align:center;
+	
+}
+
+/*main menu items*/
+.nav-area>ul>li {
+	display:inline-block;
+	position: relative;
+}
+
+
+/*main menu items*/
+.nav-area ul li:hover a {
+	background: #C0C0C0;
+	
+}
+
+/*dropdown menu
+.nav-area ul ul {
+	position: absolute;
+	padding: 0;
+	min-width: 160px;
+	display: none;
+	top: 100%;
+	left: 0;*/
+
+}
+
+/*when hover on main menu item,*/
+
+.nav-area ul li:hover>ul {
+	display: block;
+}
+
+/*when hover on dropdown menu item*/
+.nav-area ul ul li:hover a {
+	background: #C0C0C0;
+}
+
+/*dropdown menu item*/
+.nav-area ul ul li {
+	position: relative;
+}
+
+/*2nd level drop down menu
+.nav-area ul ul ul {
+	top: 0;
+	left: 100%;
+}
+.nav-area ul ul ul li:hover a {
+	background: #34495e;
+}*/
+
+
+
+main{
+  margin:3vw;
+}
+
+
+main>div{
+  display:inline-block;
+ 
+  margin:3vw;
+}
+
+
+.side-bar{
+  
+  display:inline-block;
+  border:1px solid #d6d3d9;
+  box-shadow: 3px 3px 15px #d6d3d9;
+  vertical-align:top;
+  padding:1vw;
+  height:100vh;
+  
+  }
+  
+
+
+.text-area{
+  width: 50vw;
+  display:inline-block;
+  vertical-align:bottom;
+  font: 18px "Catamaran";
+  text-align:justify;
+}
+
+.sub-text{
+  display:inline-block;
+  width:22vw;
+  margin:0 ;
+}
+
+#sub2{
+  margin-left:5vw;
+}
+
+.sub-text h3{
+  border-top:3px double #d6d3d9;
+  padding:0.5vw;
+}
+
+
+
+
+.img-box{
+ 
+ width:20vw;
+ background-color:#f5f5f5;
+ padding:8% 0;
+}
+
+img{
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.name-box{
+  text-align:left;
+  padding:1vw;
+  
+}
+
+.name-box h1{
+  font-family: "Catamaran";
+  margin:auto;
+}
+
+.profile-info>p{
+  line-height: 8px;
+  
+}
+
+
+
+footer{
+  background: #262626;
+  color:#fff;
+  height:3vh;
+}
+#copyright{
+  padding:10px;
+  text-align:center;
+}
+
+/*Responsive design_Media queries*/
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+  
+  .nav-area li {
+    float: left;
+  }
+  .nav-area li a {
+    padding: 20px 30px;
+  }
+  .nav-area>ul {
+    clear: none;
+    float: right;
+    max-height: none;
+    margin-right:1vw;
+    font-size:80%;
+  }
+  
+  .text-area{
+  width: 80vw;
+  display:inline-block;
+  vertical-align:bottom;
+  font: 14px "Catamaran";
+  margin:auto;
+  }
+  
+  .side-bar{
+  width: auto;
+  height:auto;
+  display:inline-block;
+  font: 14px;
+  margin:auto;
+  box-shadow: 3px 3px 15px #d6d3d9;
+  }
+  
+  .img-box{
+    margin-left:3vw;
+  }
+  
+  h1{
+    font-size:22px;
+  }
+  
+  .profile-info{
+  font-size:16px;
+  }
+ 
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width:767px) {
+  
+  .side-bar {
+  display:block;
+  font: 14px;
+  width:auto;
+  margin:auto;
+  
+  }
+  
+  .img-box{
+    margin-left:3vw;
+  }
+  
+  .name-box:{
+    
+  }
+  
+  .text-area{
+  width: 80vw;
+  display:block;
+  vertical-align:bottom;
+  font: 16px "Catamaran";
+  margin:auto;
+  }
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
+
+
