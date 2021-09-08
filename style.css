@@ -206,12 +206,13 @@ footer{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .nav-area{
-    height:18%vh;
+    box-shadow:none;
   }
   
   .nav-area li {
     float: left;
-    border:1px double #d6d3d9;
+    margin:0.5vh 0.5vw;
+	  border:1px double #d6d3d9;
     box-shadow: 3px 3px 15px #d6d3d9;
   }
   .nav-area li a {
