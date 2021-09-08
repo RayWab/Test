@@ -232,6 +232,7 @@ footer{
   vertical-align:bottom;
   font: 14px "Catamaran";
   margin:auto;
+  padding-left:7.5vw;
   }
   
   .side-bar{
@@ -241,8 +242,10 @@ footer{
   font: 14px;
   margin:auto;
   box-shadow: 3px 3px 15px #d6d3d9;
-  }
+  position:relative;
+  left:8vw;
   
+  }
   .img-box{
     margin-left:3vw;
   }
