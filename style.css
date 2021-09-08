@@ -263,33 +263,54 @@ footer{
  }
 }
 
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width:767px) {
   
-  .side-bar {
-  display:block;
-  font: 14px;
-  width:auto;
-  margin:auto;
   
-  }
-  
-  .img-box{
-    margin-left:3vw;
-  }
-  
-  .name-box:{
-    
-  }
-  
-  .text-area{
+   .text-area{
   width: 80vw;
   display:block;
   vertical-align:bottom;
   font: 16px "Catamaran";
   margin:auto;
+  padding-left:7.5vw;
   }
   
+  .side-bar{
+  width: 50vw;
+  height:auto;
+  display:block;
+  font:14px;
+  margin:auto;
+  box-shadow: 3px 3px 15px #d6d3d9;
+  position:relative;
+  left:10vw;
+  
+  }
+  
+  .img-box{
+  margin-left:3vw;
+  position:relative;
+  left:10vw;
+  }
+  
+  .side-bar h1{
+  font-size:22px;
+  position:relative;
+  left:10vw;
+  height:4vh;
+  }
+  
+  .profile-info{
+  font-size:16px;
+  position:relative;
+  left:10vw;
+  }
+ 
+ .sub-text{
+   width:45%;
+ }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
