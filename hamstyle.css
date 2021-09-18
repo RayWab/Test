@@ -234,7 +234,7 @@ img{
 
 
 footer{
-  background: #262626;
+  background: #343434;
   color:#fff;
   height:3vh;
   margin-top:3vh;
@@ -329,6 +329,9 @@ footer{
     
   }
 
+.main-nav.responsive li a {	
+	color:white
+ }
     
    .nav-area li  {
     display:block;
@@ -374,8 +377,7 @@ footer{
     /*visibility:hidden;*/
     width:14vw;
     z-index:1;
-/*  background-color: #d6d3d9; */
-	background-color:black;	  
+    background-color:#343434;	  
     color:white;
     font-weight:600;
     text-align:left;
@@ -383,7 +385,7 @@ footer{
     top:2vh;
     left:0;
     bottom:2vh;
-    /*margin:-5px;*/
+    margin-top:-4vw;
   }
   
   .text-area{
