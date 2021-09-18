@@ -298,7 +298,7 @@ footer{
     width:20vw;
     position:relative;
     margin-top:-3vw;
-    right:1vw;
+    
   }
   
   
@@ -308,7 +308,7 @@ footer{
     /*width:20vw;*/
     /*bottom:10vh*/
     top:4vh;
-    left:78vw;
+    left:75vw;
     /*z-index:1;*/
   }
   
@@ -390,7 +390,7 @@ footer{
   display:inline-block;
   vertical-align:bottom;
   font: 14px "Catamaran";
-  width:70% !important;
+  width:65% !important;
   margin-top:2vh;
   padding-left:7.5vw;
   position:relative;
