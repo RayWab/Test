@@ -288,14 +288,14 @@ footer{
   .main-nav{
     /*border:1px solid black;*/
     position: relative;
-    width:20vw;
+/*  width:20vw; */
     /*top:2vh;*/
     /*right:55vw;*/
     left:23vw;
   }
   
   .main-nav ul{
-    width:20vw;
+/*     width:20vw; */
     position:relative;
     margin-top:-3vw;
     
@@ -377,7 +377,7 @@ footer{
     background-color: #d6d3d9;
     color:black;
     font-weight:600;
-/*     text-align:center; */
+    text-align:left;
     position:relative;
     top:2vh;
     left:0;
