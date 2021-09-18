@@ -380,7 +380,7 @@ footer{
 /*     text-align:center; */
     position:relative;
     top:2vh;
-    left:1vw;
+    left:0;
     bottom:2vh;
     /*margin:-5px;*/
   }
