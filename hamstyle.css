@@ -266,11 +266,9 @@ footer{
 @media only screen and (max-width: 600px) {
  
  
- .main-nav ul a:not(:first-child) {display: none;}
-  /*.main-nav a.menu-icon {*/
-  /*  float: right;*/
-  /*  display: block;*/
-  /*}*/
+ .main-nav ul a {
+   display: none;}
+  
  
  
  /* hamburger menu*/
@@ -288,18 +286,10 @@ footer{
   .main-nav{
     /*border:1px solid black;*/
     position: relative;
-/*  width:20vw; */
-    /*top:2vh;*/
-    /*right:55vw;*/
     left:23vw;
   }
   
-  .main-nav ul{
-/*     width:20vw; */
-    position:relative;
-    margin-top:-3vw;
-    
-  }
+  
   
   
   .main-nav.responsive {
@@ -307,7 +297,7 @@ footer{
     position: absolute;
     /*width:20vw;*/
     /*bottom:10vh*/
-    top:4vh;
+      top:4vh;
     left:75vw;
     /*z-index:1;*/
   }
@@ -329,17 +319,21 @@ footer{
     
   }
 
-.main-nav.responsive li a {	
-	color:white
- }
+
+
+  .main-nav.responsive li a{
+    color:white;
+  }
     
    .nav-area li  {
     display:block;
-    border:1px double #d6d3d9;
+    /*border:1px double #d6d3d9;*/
     z-index:1;
+    color:white;
     width:19vw;
     position:relative;
     right:8vw;
+    text-align:left;
   }
   
   .menu-icon:hover >div{
@@ -352,9 +346,7 @@ footer{
   }
     
   
-  .menu-icon-link:active ul{
-    background-color:#d6d3d9;
-  }
+  
   
   /*Olin logo*/
   .nav-area img {
@@ -367,8 +359,9 @@ footer{
   }
  
   .nav-area li a {
-    color:black;
+    color:white;
     font-weight:600;
+    text-align:left;
   }
   
   .nav-area ul {
@@ -377,15 +370,15 @@ footer{
     /*visibility:hidden;*/
     width:14vw;
     z-index:1;
-    background-color:#343434;	  
-    color:white;
+    background-color: #343434;
+    /*color:white;*/
     font-weight:600;
     text-align:left;
     position:relative;
     top:2vh;
-    left:0;
+    /*left:1vw;*/
     bottom:2vh;
-    margin-top:-4vw;
+   margin-top:-4vw;
   }
   
   .text-area{
