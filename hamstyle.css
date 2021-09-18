@@ -374,8 +374,9 @@ footer{
     /*visibility:hidden;*/
     width:14vw;
     z-index:1;
-    background-color: #d6d3d9;
-    color:black;
+/*  background-color: #d6d3d9; */
+	background-color:black;	  
+    color:white;
     font-weight:600;
     text-align:left;
     position:relative;
