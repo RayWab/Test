@@ -532,6 +532,23 @@ footer{
     background-color:#d6d3d9;
   }
   
+ /* Rotate first bar */
+.responsive .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.responsive .bar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.responsive .bar3 {
+  -webkit-transform: rotate(45deg) translate(-7px, -4px) ;
+  transform: rotate(45deg) translate(-7px, -4px) ;
+}
+  	
   /*Olin logo*/
   .nav-area img {
     position:relative;
